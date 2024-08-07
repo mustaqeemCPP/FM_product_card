@@ -1,0 +1,50 @@
+@media  screen and (max-width: 450px) {
+
+    body {
+        padding: 20px 20px;
+    }
+    .container {
+        flex-direction: column;
+    }
+
+    .product {
+        display: none;
+    }
+
+    .mobile-product {
+        display: block;
+    }
+
+    .image {
+        max-width: fit-content;
+    }
+
+    .info {
+        background-color: var(--neuWhite);
+        width: 100%;
+        padding: 32px 28px;
+
+        > p {
+            color: var(--neuGrayishBlue);
+            width: 100%;
+            line-height: 1.5;
+            margin-bottom: 24px;
+        }
+    }
+
+    h1 {
+        font-size: 32px;
+        width: 100%;
+        margin-bottom: 20px;
+        color: var(--neuDarkBlue);
+    }
+
+    article p:first-child {
+        color: var(--primDarkCyan);
+        font-size: 32px;
+    }
+
+    button {
+        padding: 14px;
+    }
+}
